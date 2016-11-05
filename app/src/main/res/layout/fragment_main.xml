@@ -20,24 +20,27 @@
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/clogo"
+                android:background="@drawable/thumb"
                 android:text="thumb 1"
+                android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
 
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/clogo"
+                android:background="@drawable/thumb"
                 android:text="thumb 2"
+                android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
 
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/clogo"
+                android:background="@drawable/thumb"
                 android:text="thumb 3"
+                android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
 
@@ -51,8 +54,9 @@
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/clogo"
+                android:background="@drawable/thumb"
                 android:text="thumb 4"
+                android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
 
@@ -62,14 +66,14 @@
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="5dip" >
+            android:layout_height="wrap_content">
 
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/clogo"
+                android:background="@drawable/thumb"
                 android:text="thumb 5"
+                android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
         </TableRow>

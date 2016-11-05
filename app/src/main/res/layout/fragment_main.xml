@@ -64,6 +64,28 @@
                 android:gravity="bottom"
                 android:textAlignment="center" />
 
+            <TextView
+                android:layout_height="128dp"
+                android:layout_width="128dp"
+                android:background="@drawable/jeremy"
+                android:text="Jeremy"
+                android:color="#fff"
+                android:onClick="loadVideoB"
+                android:gravity="bottom"
+                android:textAlignment="center"
+                android:id="@+id/textView15" />
+
+            <TextView
+                android:layout_height="128dp"
+                android:layout_width="128dp"
+                android:background="@drawable/jeremy"
+                android:text="Jeremy"
+                android:color="#fff"
+                android:onClick="loadVideoB"
+                android:gravity="bottom"
+                android:textAlignment="center"
+                android:id="@+id/textView14" />
+
         </TableRow>
 
         <!-- 3 columns -->
@@ -75,12 +97,40 @@
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/thumb"
+                android:background="@drawable/helifriend"
                 android:text="thumb 5"
                 android:color="#fff"
                 android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
+
+            <TextView
+                android:layout_height="128dp"
+                android:layout_width="128dp"
+                android:background="@drawable/helifriend"
+                android:text="thumb 5"
+                android:color="#fff"
+                android:onClick="loadVideo"
+                android:gravity="bottom"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_height="128dp"
+                android:layout_width="128dp"
+                android:background="@drawable/helifriend"
+                android:text="thumb 5"
+                android:color="#fff"
+                android:onClick="loadVideo"
+                android:gravity="bottom"
+                android:textAlignment="center" />
+
+        </TableRow>
+        <!-- 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
         </TableRow>
 
     </TableLayout>

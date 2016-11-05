@@ -24,14 +24,12 @@ public class ScrollingActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
         final VideoView videoView = (VideoView) findViewById(R.id.videoView);
 
    //     int file = R.raw.file000;
 
-
         Intent intent = getIntent();
-        int file = intent.getIntExtra("key", 0); //if it's a string you stored.
+        int file = intent.getIntExtra("key", 0); //if it's an int you stored.
 
 
         String uriPath = "android.resource://" + getPackageName() + "/" + file;
@@ -40,7 +38,6 @@ public class ScrollingActivity extends AppCompatActivity {
         videoView.setVideoURI(uri);
 
         videoView.start();
-
 
     }
 

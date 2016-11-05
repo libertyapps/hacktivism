@@ -19,6 +19,8 @@ public class ScrollingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scrolling);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        toolbar.setLogo(R.drawable.clogo);
+
 
         final VideoView videoView = (VideoView) findViewById(R.id.videoView);
 

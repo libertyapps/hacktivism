@@ -39,7 +39,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void loadVideo(View view) {
         Intent myIntent = new Intent(MainActivity.this, ScrollingActivity.class);
-//        myIntent.putExtra("key", value); //Optional parameters
+        myIntent.putExtra("key", R.raw.file000); //Optional parameters
+        MainActivity.this.startActivity(myIntent);
+    }
+
+    public void loadVideoB(View view) {
+        Intent myIntent = new Intent(MainActivity.this, ScrollingActivity.class);
+        myIntent.putExtra("key", R.raw.file001); //Optional parameters
         MainActivity.this.startActivity(myIntent);
     }
 
@@ -51,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle(R.string.app_name);
         setSupportActionBar(toolbar);
+
+
+
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());

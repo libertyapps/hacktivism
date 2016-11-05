@@ -1,5 +1,7 @@
 package uk.co.libertyapps.hacktivism;
 
+import android.content.Intent;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -11,6 +13,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.VideoView;
 
+import java.io.InputStream;
+
 public class ScrollingActivity extends AppCompatActivity {
 
     @Override
@@ -19,12 +23,19 @@ public class ScrollingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scrolling);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setLogo(R.drawable.clogo);
 
 
         final VideoView videoView = (VideoView) findViewById(R.id.videoView);
 
-        String uriPath = "android.resource://" + getPackageName() + "/" + R.raw.file000;
+   //     int file = R.raw.file000;
+
+
+        Intent intent = getIntent();
+        int file = intent.getIntExtra("key", 0); //if it's a string you stored.
+
+
+        String uriPath = "android.resource://" + getPackageName() + "/" + file;
+
         Uri uri = Uri.parse(uriPath);
         videoView.setVideoURI(uri);
 

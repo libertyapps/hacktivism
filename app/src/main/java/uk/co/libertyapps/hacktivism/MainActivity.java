@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void loadVideoB(View view) {
         Intent myIntent = new Intent(MainActivity.this, ScrollingActivity.class);
-        myIntent.putExtra("key", R.raw.file001); //Optional parameters
+        myIntent.putExtra("key", R.raw.jez); //Optional parameters
         MainActivity.this.startActivity(myIntent);
     }
 

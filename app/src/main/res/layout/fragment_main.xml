@@ -28,9 +28,11 @@
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/thumb"
-                android:text="thumb 1"
-                android:color="#fff"
+                android:background="@drawable/thumb0"
+                android:text="Change"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#eee"
                 android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
@@ -38,9 +40,11 @@
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/thumb"
-                android:text="thumb 2"
-                android:color="#fff"
+                android:background="@drawable/thumb1"
+                android:text="The"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#eee"
                 android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
@@ -48,9 +52,11 @@
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/thumb"
-                android:text="thumb 3"
-                android:color="#fff"
+                android:background="@drawable/thumb2"
+                android:text="World"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#eee"
                 android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
@@ -74,8 +80,6 @@
                 android:layout_height="128dp"
                 android:layout_width="128dp"
                 android:background="@drawable/jeremy"
-                android:text="Jeremy"
-                android:color="#fff"
                 android:onClick="loadVideoB"
                 android:gravity="bottom"
                 android:textAlignment="center" />
@@ -83,9 +87,7 @@
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/jeremy"
-                android:text="Jeremy"
-                android:color="#fff"
+                android:background="@drawable/thumb4"
                 android:onClick="loadVideoB"
                 android:gravity="bottom"
                 android:textAlignment="center"
@@ -94,7 +96,7 @@
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/jeremy"
+                android:background="@drawable/thumb5"
                 android:text="Jeremy"
                 android:color="#fff"
                 android:onClick="loadVideoB"
@@ -113,9 +115,7 @@
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/helifriend"
-                android:text="thumb 5"
-                android:color="#fff"
+                android:background="@drawable/heli"
                 android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
@@ -124,8 +124,6 @@
                 android:layout_height="128dp"
                 android:layout_width="128dp"
                 android:background="@drawable/helifriend"
-                android:text="thumb 5"
-                android:color="#fff"
                 android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
@@ -133,19 +131,42 @@
             <TextView
                 android:layout_height="128dp"
                 android:layout_width="128dp"
-                android:background="@drawable/helifriend"
-                android:text="thumb 5"
-                android:color="#fff"
+                android:background="@drawable/thumb6"
                 android:onClick="loadVideo"
                 android:gravity="bottom"
                 android:textAlignment="center" />
 
         </TableRow>
         <!-- 3 columns -->
+        <!-- 3 columns -->
         <TableRow
             android:id="@+id/tableRow4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_height="128dp"
+                android:layout_width="128dp"
+                android:background="@drawable/thumb7"
+                android:onClick="loadVideo"
+                android:gravity="bottom"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_height="128dp"
+                android:layout_width="128dp"
+                android:background="@drawable/thumb8"
+                android:onClick="loadVideo"
+                android:gravity="bottom"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_height="128dp"
+                android:layout_width="128dp"
+                android:background="@drawable/thumb3"
+                android:onClick="loadVideo"
+                android:gravity="bottom"
+                android:textAlignment="center" />
 
         </TableRow>
 
